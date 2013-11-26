@@ -1,0 +1,38 @@
+
+/* ==========================================================================
+   @section #next-major
+
+   <%= componentNameRaw %>
+
+   <%= description %>
+
+   @endsection
+   ========================================================================== */
+
+/**
+ * @section #next-minor
+ *
+ * A demo of my component
+ *
+ * A short description about what this demo is showing about my component
+ *
+ * @Markup
+ * <div id="example-1-content" class=".<%= componentName %>">
+ *     <p>Some html to demonstrate my component</p>
+ * </div><% if (js) { %>
+ *
+ * <script>
+ *     $(window).on('load', function() {
+ *         console.log("some js to demonstrate my component");
+ *     });
+ * </script><% } %>
+ *
+ * @default
+ *
+ * @endsection
+ */
+
+.<%= componentName %> {
+    background-color: get("<%= componentName %>/background-color");
+    padding: get("<%= componentName %>/padding");
+}

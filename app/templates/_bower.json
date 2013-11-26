@@ -1,0 +1,20 @@
+{
+  "name": "asimov-<%= componentName %>",
+  "version": "0.0.0",
+  "description": "<%= description %>",
+  "keywords": [
+    "asimov"
+  ],
+  "license": "<%= license %>",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "asimov-core": "git@github.com:asimov/asimov-core.git"
+  }
+}
+

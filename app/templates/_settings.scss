@@ -1,0 +1,9 @@
+
+$settings: set-default((
+    "<%= componentName %>": (
+        "content": (
+            "background-color": green,
+            "padding": 30px,
+        )
+    ),
+)) !global;

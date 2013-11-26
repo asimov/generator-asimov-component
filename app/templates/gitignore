@@ -32,6 +32,3 @@ vendor/
 
 # generated files
 /.build
-
-# generated docs
-/docs/

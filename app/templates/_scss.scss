@@ -1,0 +1,7 @@
+@import "asimov/settings";
+@import "<%= componentName %>/settings";
+
+@import "asimov/asimov";
+
+// MANIFEST
+@import "<%= componentName %>/manifest";
