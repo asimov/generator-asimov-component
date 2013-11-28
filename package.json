@@ -30,7 +30,8 @@
     "grunt-conventional-changelog": "1.0.0",
     "matchdep": "0.3.0",
     "grunt": "0.4.2",
-    "grunt-bump": "0.0.11"
+    "grunt-bump": "0.0.11",
+    "grunt-release": "~0.6.0"
   },
   "peerDependencies": {
     "yo": ">=1.0.0"

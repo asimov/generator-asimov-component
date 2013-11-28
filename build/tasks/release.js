@@ -12,6 +12,7 @@ module.exports = function (grunt) {
 
         if (!options.dryRun) {
             grunt.task.run('bump-commit');
+            grunt.task.run('grunt-release:' + (type || 'patch'));
         }
     });
 };

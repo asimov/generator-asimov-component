@@ -33,6 +33,18 @@ module.exports = function (grunt) {
             }
         },
 
+        'grunt-release': {
+            options: {
+                bump: false,
+                add: false,
+                commit: false,
+                tag: false,
+                push: false,
+                pushTags: false,
+                npm: true
+            }
+        },
+
         // Creating new releases
 
         release: {
@@ -44,6 +56,8 @@ module.exports = function (grunt) {
     // Load tasks defined in asimov-core's package.json
 
     require('matchdep').filterDev('grunt-!(cli)').forEach(grunt.loadNpmTasks);
+
+    grunt.renameTask('release', 'grunt-release');
 
     // Load our custom tasks
 
