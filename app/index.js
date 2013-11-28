@@ -121,4 +121,5 @@ AsimovComponentGenerator.prototype.projectfiles = function projectfiles() {
     this.template('_jshintrc', '.jshintrc');
     this.copy('gitignore', '.gitignore');
     this.copy('Gruntfile.js', 'Gruntfile.js');
+    this.copy('Gemfile', 'Gemfile');
 };
