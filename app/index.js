@@ -42,7 +42,7 @@ AsimovComponentGenerator.prototype.askFor = function askFor() {
     var prompts = [{
         type: 'input',
         name: 'componentName',
-        message: 'What the name of your component?'
+        message: 'What is the name of your component?'
     }, {
         type: 'input',
         name: 'description',
