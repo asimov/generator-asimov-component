@@ -33,6 +33,6 @@
  */
 
 .<%= componentName %> {
-    background-color: get("<%= componentName %>/background-color");
-    padding: get("<%= componentName %>/padding");
+    background-color: get("<%= componentName %>/content/background-color");
+    padding: get("<%= componentName %>/content/padding");
 }
