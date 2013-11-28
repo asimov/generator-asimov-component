@@ -21,15 +21,15 @@
     "test": "mocha"
   },
   "dependencies": {
-    "yeoman-generator": "~0.14.0",
+    "yeoman-generator": "0.14.0",
     "chdir": "0.0.0",
-    "underscore.string": "~2.3.3"
+    "underscore.string": "2.3.3"
   },
   "devDependencies": {
-    "mocha": "~1.14.0",
-    "grunt-conventional-changelog": "~1.0.0",
-    "matchdep": "~0.3.0",
-    "grunt": "~0.4.2",
+    "mocha": "1.14.0",
+    "grunt-conventional-changelog": "1.0.0",
+    "matchdep": "0.3.0",
+    "grunt": "0.4.2",
     "grunt-bump": "0.0.11"
   },
   "peerDependencies": {
