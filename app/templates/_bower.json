@@ -5,7 +5,7 @@
   "keywords": [
     "asimov"
   ],
-  "license": "<%= license %>",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
