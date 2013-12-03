@@ -1,38 +1,42 @@
 @import "<%= componentName %>/mixins/<%= componentName %>";
 
-/* ==========================================================================
-   @section #next-major
+@include export("<%= componentName %>") {
 
-   <%= componentNameRaw %>
+    /* ==========================================================================
+       @section #next-major
 
-   <%= description %>
+       <%= componentNameRaw %>
 
-   @endsection
-   ========================================================================== */
+       <%= description %>
 
-/**
- * @section #next-minor
- *
- * A demo of my component
- *
- * A short description about what this demo is showing about my component
- *
- * @Markup
- * <div id="example-1-content" class="<%= componentName %>">
- *     <p>Some html to demonstrate my component</p>
- * </div><% if (js) { %>
- *
- * <script>
- *     $(window).on('load', function() {
- *         console.log("some js to demonstrate my component");
- *     });
- * </script><% } %>
- *
- * @default
- *
- * @endsection
- */
+       @endsection
+       ========================================================================== */
 
-.<%= componentName %> {
-    @include <%= componentName %>();
+    /**
+     * @section #next-minor
+     *
+     * A demo of my component
+     *
+     * A short description about what this demo is showing about my component
+     *
+     * @Markup
+     * <div id="example-1-content" class="<%= componentName %>">
+     *     <p>Some html to demonstrate my component</p>
+     * </div><% if (js) { %>
+     *
+     * <script>
+     *     $(window).on('load', function() {
+     *         console.log("some js to demonstrate my component");
+     *     });
+     * </script><% } %>
+     *
+     * @default
+     *
+     * @endsection
+     */
+
+    .<%= componentName %> {
+        @include <%= componentName %>();
+    }
+
 }
