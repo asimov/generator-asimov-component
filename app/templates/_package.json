@@ -1,5 +1,5 @@
 {
-  "name": "asimov-<%= componentName %>",
+  "name": "asimov-<% if (contrib) { %>contrib-<% } %><%= componentName %>",
   "version": "0.0.0",
   "description": "<%= description %>",
   "keywords": [

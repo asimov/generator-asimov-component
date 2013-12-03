@@ -21,8 +21,8 @@
     "strict": true,
     "trailing": true,
     "smarttabs": true,
-    "jquery": true<% if (ie8 || contrib) { %>,
-    "es3": true<% } %><% if (contrib) { %>,
+    "jquery": true<% if (ie8 || contrib || strict) { %>,
+    "es3": true<% } %><% if (contrib || strict) { %>,
     "onevar": true,
     "maxcomplexity": 4,
     "maxlen": 80<% } %>

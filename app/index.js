@@ -51,11 +51,19 @@ AsimovComponentGenerator.prototype.askFor = function askFor() {
     }, {
         type: 'confirm',
         name: 'contrib',
+        message: 'Is this component maintained by the asimov team?',
+        default: false
+    }, {
+        when: function(responses) {
+            return !responses.contrib;
+        },
+        type: 'confirm',
+        name: 'strict',
         message: 'Should this component conform to offical packages?',
         default: true
     }, {
         when: function(responses) {
-            return !responses.contrib;
+            return !(responses.contrib || responses.strict);
         },
         type: 'confirm',
         name: 'ie8',
@@ -74,6 +82,7 @@ AsimovComponentGenerator.prototype.askFor = function askFor() {
         this.description = props.description.trim();
         this.license = props.license;
         this.contrib = props.contrib;
+        this.strict = props.strict;
         this.ie8 = props.ie8;
         this.js = props.js;
 
