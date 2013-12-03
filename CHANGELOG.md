@@ -1,3 +1,11 @@
+<a name="v0.0.3"></a>
+### v0.0.3 (2013-12-03)
+
+
+#### Features
+
+* **changelog:** generate a blank CHANGELOG.md ([4af42d39](http://github.com/0.0.2/commit/4af42d39889248b8851b01b180c072604152c001))
+
 <a name="v0.0.2"></a>
 ### v0.0.2 (2013-12-03)
 
