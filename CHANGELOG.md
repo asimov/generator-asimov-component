@@ -1,3 +1,11 @@
+<a name="v0.0.2"></a>
+### v0.0.2 (2013-12-03)
+
+
+#### Bug Fixes
+
+* **npm:** fix package.json license definition ([1c5b4485](http://github.com/0.0.1/commit/1c5b448510ad6c0d31a9b88bc77153b7d7b928ad))
+
 <a name="v0.0.1"></a>
 ### v0.0.1 (2013-11-28)
 
