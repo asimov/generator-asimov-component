@@ -1,3 +1,11 @@
+<a name="v0.0.6"></a>
+### v0.0.6 (2013-12-03)
+
+
+#### Features
+
+* **sass:** use export for components ([38f54760](http://github.com/0.0.5/commit/38f54760f7bdd283f9e9210fbc309d675d9e1404))
+
 <a name="v0.0.5"></a>
 ### v0.0.5 (2013-12-03)
 
