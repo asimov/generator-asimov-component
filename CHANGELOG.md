@@ -1,3 +1,11 @@
+<a name="v0.0.4"></a>
+### v0.0.4 (2013-12-03)
+
+
+#### Features
+
+* **sass:** generate mixin and functions folder ([7faeeb6c](http://github.com/0.0.3/commit/7faeeb6c7f4b0fe79ee866f8ccc06c46d2dae5be))
+
 <a name="v0.0.3"></a>
 ### v0.0.3 (2013-12-03)
 
