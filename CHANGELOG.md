@@ -1,3 +1,11 @@
+<a name="v0.0.5"></a>
+### v0.0.5 (2013-12-03)
+
+
+#### Bug Fixes
+
+* **contrib:** fix component name generation for contrib components ([ff9bc819](http://github.com/0.0.4/commit/ff9bc8199eb61ee8f0fbaa6230f422146e697f7e))
+
 <a name="v0.0.4"></a>
 ### v0.0.4 (2013-12-03)
 
