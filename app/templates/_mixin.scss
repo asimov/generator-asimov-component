@@ -1,0 +1,7 @@
+@import "<%= componentName %>/functions/<%= componentName %>";
+
+@mixin <%= componentName %>() {
+    background-color: get("<%= componentName %>/content/background-color");
+    color: tint(get("<%= componentName %>/content/background-color"), 10%);
+    padding: get("<%= componentName %>/content/padding");
+}

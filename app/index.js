@@ -107,12 +107,12 @@ AsimovComponentGenerator.prototype.scssmain = function app() {
 };
 
 AsimovComponentGenerator.prototype.scsscomponent = function app() {
-    // this.mkdir('src/scss/' + this.componentName + '/functions');
-    // this.mkdir('src/scss/' + this.componentName + '/mixins');
+    this.mkdir('src/scss/' + this.componentName + '/functions');
+    this.mkdir('src/scss/' + this.componentName + '/mixins');
     this.mkdir('src/scss/' + this.componentName + '/components');
 
-    // this.template('_function.scss',   'src/scss/' + this.componentName + '/functions/_' + this.componentName + '.scss');
-    // this.template('_mixin.scss',      'src/scss/' + this.componentName + '/mixins/_' + this.componentName + '.scss');
+    this.template('_function.scss',   'src/scss/' + this.componentName + '/functions/_' + this.componentName + '.scss');
+    this.template('_mixin.scss',      'src/scss/' + this.componentName + '/mixins/_' + this.componentName + '.scss');
     this.template('_component.scss',  'src/scss/' + this.componentName + '/components/_' + this.componentName + '.scss');
 };
 
