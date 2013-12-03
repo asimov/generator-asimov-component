@@ -122,4 +122,5 @@ AsimovComponentGenerator.prototype.projectfiles = function projectfiles() {
     this.copy('gitignore', '.gitignore');
     this.copy('Gruntfile.js', 'Gruntfile.js');
     this.copy('Gemfile', 'Gemfile');
+    this.write('CHANGELOG.md', ' ');
 };
