@@ -23,7 +23,9 @@ $ npm install -g generator-asimov-component
 
 ### Building your first component
 
-Go the folder you wish to build your component in and initiate the generator:
+Since every every Asimov component is expected to be a standalone repository we recommend starting by creating your repository and checking it out locally.
+
+Next go into the folder you just checked out and initiate the generator:
 
 ```
 $ yo asimov-component
@@ -39,9 +41,13 @@ A short name for people to find your component among other things eg. `fluid gri
 
 A short description for people who might be looking to use your component eg. `A simple grid for Asimov projects` etc.
 
+**Is this component maintained by the asimov team?**
+
+Is this component being developed on behalf of the Asimov core team. You should almost always answer no.
+
 **Should this component conform to offical packages?**
 
-Do you wish for your component to be held to the same strict coding standards as officially maintained packages.
+Do you wish for your component to be held to the same strict coding standards as officially maintained packages. If you answered yes to the previous question you will not be asked this.
 
 **Will this component be IE8 compatible?**
 
@@ -51,6 +57,18 @@ Do you wish for Asimov's internal code quality checks to alert if something may 
 
 This needs to be true if your component has javascript otherwise project using this component wont get your javascript.
 
+
+The generator will now create the directory structure required for Asimov components as well as basic `package.json` and `bower.json` files.
+
+Next you will need to initialize npm
+
+```
+npm init
+```
+
+You should able to accept the defaults values unless you wish to change them. We recommend changing the license to MIT.
+
+You're now ready to start building your component!
 
 ## License
 
