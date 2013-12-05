@@ -2,8 +2,9 @@
 /.sass-cache
 *.scssc
 
-# npm packages
+# npm
 /node_modules
+npm-debug.log
 
 # osx junk files
 .DS_Store
