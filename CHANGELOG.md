@@ -1,3 +1,11 @@
+<a name="v0.0.8"></a>
+### v0.0.8 (2013-12-05)
+
+
+#### Bug Fixes
+
+* **sass:** exports not export ([0dbb08e8](http://github.com/0.0.7/commit/0dbb08e887ca003765845915ab0c4ef20d526303))
+
 <a name="v0.0.7"></a>
 ### v0.0.7 (2013-12-05)
 
