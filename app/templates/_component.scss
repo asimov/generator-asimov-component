@@ -1,6 +1,6 @@
 @import "<%= componentName %>/mixins/<%= componentName %>";
 
-@include export("<%= componentName %>") {
+@include exports("<%= componentName %>") {
 
     /* ==========================================================================
        @section #next-major
