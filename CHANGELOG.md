@@ -1,3 +1,11 @@
+<a name="v0.0.11"></a>
+### v0.0.11 (2013-12-09)
+
+
+#### Bug Fixes
+
+* **ignores:** ignore generated dist files ([9592ec5b](http://github.com/0.0.10/commit/9592ec5bf01b3b9c676c21e6f552c11eb1734549))
+
 <a name="v0.0.10"></a>
 ### v0.0.10 (2013-12-09)
 
