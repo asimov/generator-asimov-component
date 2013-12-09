@@ -1,7 +1,14 @@
 @import "<%= componentName %>/functions/<%= componentName %>";
 
-@mixin <%= componentName %>() {
-    background-color: get("<%= componentName %>/content/background-color");
-    color: tint(get("<%= componentName %>/content/background-color"), 10%);
-    padding: get("<%= componentName %>/content/padding");
+@mixin <%= componentName %>($properties:(), $base:true) {
+    @if $base {
+        display: block;
+        width: 100%;
+        background-clip: padding;
+    }
+
+    padding: lookup($properties, "padding");
+    background: lookup($properties, "background");
+    border: lookup($properties, "border");
+    border-radius: lookup($properties, "border-radius");
 }

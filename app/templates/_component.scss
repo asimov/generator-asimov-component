@@ -20,8 +20,8 @@
      * A short description about what this demo is showing about my component
      *
      * @markup
-     * <div id="example-1-content" class="<%= componentName %>">
-     *     <p>Some html to demonstrate my component</p>
+     * <div class="<%= componentName %> {$modifiers}">
+     *     <p style="margin: none;">{$modifiers.value}</p>
      * </div><% if (js) { %>
      *
      * <script>
@@ -30,13 +30,22 @@
      *     });
      * </script><% } %>
      *
-     * @default
-     *
-     * @endsection
+     * @nodefault
      */
 
-    .<%= componentName %> {
-        @include <%= componentName %>();
+     .<%= componentName %> {
+         @include <%= componentName %>();
+     }
+
+     @each $name, $properties in get("<%= componentName %>") {
+
+        /* @modifier .<%= componentName %>--#{$name} - #{lookup($properties, "description")} */
+
+        .<%= componentName %>--#{$name} {
+            @include <%= componentName %>($properties, $base:false);
+        }
     }
+
+    /* @endsection */
 
 }
