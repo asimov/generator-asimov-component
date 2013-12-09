@@ -33,6 +33,7 @@ vendor/
 
 # generated files
 /.build
+/dist/
 
 # generated docs
 /docs/
