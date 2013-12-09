@@ -1,3 +1,11 @@
+<a name="v0.0.10"></a>
+### v0.0.10 (2013-12-09)
+
+
+#### Features
+
+* **sass:** add a more complex demo ([18a773dc](http://github.com/0.0.9/commit/18a773dcf2ad3d2bc7c5598e9efc1466f3eafb62))
+
 <a name="v0.0.9"></a>
 ### v0.0.9 (2013-12-09)
 
