@@ -1,3 +1,12 @@
+<a name="v0.0.9"></a>
+### v0.0.9 (2013-12-09)
+
+
+#### Bug Fixes
+
+* **gems:** use the correct version of sass ([bb2a09cb](http://github.com/0.0.8/commit/bb2a09cb7d489f68d7b04e3cc85895da860e970a))
+* **sass:** update distancss syntax ([d683cab5](http://github.com/0.0.8/commit/d683cab5bdd79cfe75abdc70b9d6bbcf3db0abed))
+
 <a name="v0.0.8"></a>
 ### v0.0.8 (2013-12-05)
 
