@@ -1,3 +1,11 @@
+<a name="v0.0.14"></a>
+### v0.0.14 (2013-12-10)
+
+
+#### Bug Fixes
+
+* **js:** fix some jshint errors on generated js ([825a86d6](http://github.com/0.0.13/commit/825a86d6c5f882d0d0de8886184e48a9b895996d))
+
 <a name="v0.0.13"></a>
 ### v0.0.13 (2013-12-10)
 
