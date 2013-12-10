@@ -1,3 +1,11 @@
+<a name="v0.0.16"></a>
+### v0.0.16 (2013-12-10)
+
+
+#### Bug Fixes
+
+* **js:** generate js files in the right place ([4f896aff](http://github.com/0.0.15/commit/4f896affdfb0034c081b07814ed8e00251d005ab))
+
 <a name="v0.0.15"></a>
 ### v0.0.15 (2013-12-10)
 
