@@ -1,3 +1,11 @@
+<a name="v0.0.15"></a>
+### v0.0.15 (2013-12-10)
+
+
+#### Bug Fixes
+
+* **js:** fix jshint maxlen error on generated js ([386be4cc](http://github.com/0.0.14/commit/386be4cc4d72b2eb937858c43344c34c6025d5fb))
+
 <a name="v0.0.14"></a>
 ### v0.0.14 (2013-12-10)
 
