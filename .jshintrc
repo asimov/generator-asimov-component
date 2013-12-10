@@ -1,4 +1,11 @@
 {
+    "predef": [
+        "asimov",
+        "require",
+        "define",
+        "module",
+        "exports"
+    ],
     "node": true,
     "esnext": true,
     "bitwise": true,
@@ -13,7 +20,6 @@
     "quotmark": "single",
     "regexp": true,
     "undef": true,
-    "unused": true,
     "strict": true,
     "trailing": true,
     "smarttabs": true
