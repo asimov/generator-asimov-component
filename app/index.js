@@ -102,7 +102,7 @@ AsimovComponentGenerator.prototype.jsmain = function app() {
         this.mkdir('src/js');
         this.mkdir('src/js/' + this.componentName);
 
-        this.template('_js.js', 'src/js/' + this.componentName + '/' + this.componentName + '.js');
+        this.template('_js.js', 'src/js/lib/' + this.componentName + '.js');
     }
 };
 
