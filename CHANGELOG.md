@@ -1,3 +1,11 @@
+<a name="v0.0.13"></a>
+### v0.0.13 (2013-12-10)
+
+
+#### Bug Fixes
+
+* **js:** fix missing use strict jshint error ([dfe4d621](http://github.com/0.0.12/commit/dfe4d62117bfb7203de2e416a50855515379fc0e))
+
 <a name="v0.0.12"></a>
 ### v0.0.12 (2013-12-10)
 
