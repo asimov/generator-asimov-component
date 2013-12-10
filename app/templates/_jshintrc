@@ -24,6 +24,6 @@
     "jquery": true<% if (ie8 || contrib || strict) { %>,
     "es3": true<% } %><% if (contrib || strict) { %>,
     "onevar": true,
-    "maxcomplexity": 4,
+    "maxcomplexity": 5,
     "maxlen": 80<% } %>
 }
