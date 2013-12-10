@@ -37,7 +37,11 @@
     $.fn[pluginName] = function(options) {
         return this.each(function() {
             if (!$.data(this, pluginName)) {
-                var opts = asimov.core.mergeElementData($(this), pluginName, $.extend(true, {}, defaults, options));
+                var opts = asimov.core.mergeElementData(
+                    $(this),
+                    pluginName,
+                    $.extend(true, {}, defaults, options)
+                );
 
                 $.data(this, pluginName, build(opts, this));
             }
