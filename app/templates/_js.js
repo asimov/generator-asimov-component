@@ -5,16 +5,16 @@
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
         define([
-            'jquery'
-        ], function(jQuery) {
+            'jquery', 'lib/<%= componentName %>'
+        ], function(jQuery, <%= componentClassName %>) {
             root.jQuery = factory(jQuery);
             return root.jQuery;
         });
     } else {
         // Browser globals
-        root.jQuery = factory(root.jQuery);
+        root.jQuery = factory(root.jQuery, root.<%= componentClassName %>);
     }
-}(this, function($) {
+}(this, function($, <%= componentClassName %>) {
     'use strict';
 
     var pluginName = '<%= componentName %>',
@@ -22,6 +22,7 @@
         };
 
     function build(options, elem) {
+        var obj = new <%= componentClassName %>().init(options, elem);
 
         // Public API
 

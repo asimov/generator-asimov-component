@@ -79,6 +79,7 @@ AsimovComponentGenerator.prototype.askFor = function askFor() {
     this.prompt(prompts, function(props) {
         this.componentNameRaw = props.componentName.trim();
         this.componentName = str.slugify(this.componentNameRaw);
+        this.componentClassName = str.classify(this.componentNameRaw);
         this.description = props.description.trim();
         this.license = props.license;
         this.contrib = props.contrib;
@@ -100,9 +101,8 @@ AsimovComponentGenerator.prototype.app = function app() {
 AsimovComponentGenerator.prototype.jsmain = function app() {
     if (this.js) {
         this.mkdir('src/js');
-        this.mkdir('src/js/' + this.componentName);
-
-        this.template('_js.js', 'src/js/lib/' + this.componentName + '.js');
+        this.template('_js.js', 'src/js/' + this.componentName + '.js');
+        this.template('_jslib.js', 'src/js/lib/' + this.componentName + '.js');
     }
 };
 
