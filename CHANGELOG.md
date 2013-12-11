@@ -1,3 +1,11 @@
+<a name="v0.0.17"></a>
+### v0.0.17 (2013-12-11)
+
+
+#### Features
+
+* **js:** improved JS boilerplate ([49347293](http://github.com/0.0.16/commit/49347293d737b6e684188ec4df69d970c5a95628))
+
 <a name="v0.0.16"></a>
 ### v0.0.16 (2013-12-10)
 
