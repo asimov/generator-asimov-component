@@ -1,3 +1,11 @@
+<a name="v0.0.18"></a>
+### v0.0.18 (2013-12-11)
+
+
+#### Features
+
+* **bower:** add the private option ([fd433b42](http://github.com/0.0.17/commit/fd433b424d27034c29a2206bbe6b2dd03db5f6ef))
+
 <a name="v0.0.17"></a>
 ### v0.0.17 (2013-12-11)
 
