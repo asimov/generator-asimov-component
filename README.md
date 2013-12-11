@@ -57,6 +57,10 @@ Do you wish for Asimov's internal code quality checks to alert if something may 
 
 This needs to be true if your component has javascript otherwise project using this component wont get your javascript.
 
+**Is this component private?**
+
+Say `yes` if you want to keep the package private and do not want to register the bower package in future.
+
 
 The generator will now create the directory structure required for Asimov components as well as basic `package.json` and `bower.json` files.
 

@@ -15,6 +15,7 @@
   ],
   "dependencies": {
     "asimov-core": "git@github.com:asimov/asimov-core.git"
-  }
+  }<% if (private) { %>,
+  "private": true<% } %>
 }
 

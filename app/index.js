@@ -74,6 +74,11 @@ AsimovComponentGenerator.prototype.askFor = function askFor() {
         name: 'js',
         message: 'Will this component have js?',
         default: false
+    }, {
+        type: 'confirm',
+        name: 'private',
+        message: 'Is this component private?',
+        default: false
     }];
 
     this.prompt(prompts, function(props) {
@@ -86,6 +91,7 @@ AsimovComponentGenerator.prototype.askFor = function askFor() {
         this.strict = props.strict;
         this.ie8 = props.ie8;
         this.js = props.js;
+        this.private = props.private;
 
         cb();
     }.bind(this));
