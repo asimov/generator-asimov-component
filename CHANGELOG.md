@@ -1,3 +1,11 @@
+<a name="v0.0.22"></a>
+### v0.0.22 (2013-12-12)
+
+
+#### Bug Fixes
+
+* **sass:** fix generated sass component ([364a0596](http://github.com/0.0.21/commit/364a05967dfc018c74ceab920bc07a8d35d4a620))
+
 <a name="v0.0.21"></a>
 ### v0.0.21 (2013-12-12)
 
