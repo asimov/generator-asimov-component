@@ -12,6 +12,10 @@
        @endsection
        ========================================================================== */
 
+     .<%= componentName %> {
+         @include <%= componentName %>();
+     }
+
     /**
      * @section #next-minor
      *
@@ -33,16 +37,12 @@
      * @nodefault
      */
 
-     .<%= componentName %> {
-         @include <%= componentName %>();
-     }
+     @each $variation, $properties in get("<%= componentName %>/variation") {
 
-     @each $name, $properties in get("<%= componentName %>") {
+        /* @modifier .<%= componentName %>--#{$variation} - #{get("description", $properties)} */
 
-        /* @modifier .<%= componentName %>--#{$name} - #{lookup($properties, "description")} */
-
-        .<%= componentName %>--#{$name} {
-            @include <%= componentName %>($properties, $base:false);
+        .<%= componentName %>--#{$variation} {
+            @include <%= componentName %>($variation, $base:false);
         }
     }
 

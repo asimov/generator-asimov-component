@@ -1,14 +1,16 @@
 @import "<%= componentName %>/functions/<%= componentName %>";
 
-@mixin <%= componentName %>($properties:(), $base:true) {
+@mixin <%= componentName %>($name:"base", $base:true) {
+    $properties: get("button/base");
+
     @if $base {
         display: block;
         width: 100%;
         background-clip: padding;
     }
 
-    padding: lookup($properties, "padding");
-    background: lookup($properties, "background");
-    border: lookup($properties, "border");
-    border-radius: lookup($properties, "border-radius");
+    padding: get("padding", $properties);
+    background: get("background", $properties);
+    border: get("border", $properties);
+    border-radius: get("border-radius", $properties);
 }
