@@ -131,6 +131,12 @@ AsimovComponentGenerator.prototype.scsscomponent = function app() {
     this.template('_component.scss',  'src/scss/' + this.componentName + '/components/_' + this.componentName + '.scss');
 };
 
+AsimovComponentGenerator.prototype.docs = function app() {
+    this.mkdir('src/docs/assets/scss');
+
+    this.copy('_docs.scss',  'src/docs/assets/scss/docs.scss');
+};
+
 AsimovComponentGenerator.prototype.projectfiles = function projectfiles() {
     this.copy('editorconfig', '.editorconfig');
     this.template('_jshintrc', '.jshintrc');
