@@ -1,3 +1,11 @@
+<a name="v0.0.20"></a>
+### v0.0.20 (2013-12-12)
+
+
+#### Features
+
+* **docs:** create a default docs theme ([fb9fe5ca](http://github.com/0.0.19/commit/fb9fe5cab268907902c106a5d35bd265375a204f))
+
 <a name="v0.0.19"></a>
 ### v0.0.19 (2013-12-12)
 
