@@ -1,12 +1,14 @@
 @import "<%= componentName %>/functions/<%= componentName %>";
 
 @mixin <%= componentName %>($name:"base", $base:true) {
-    $properties: get("button/base");
+    $properties: get("<%= componentName %>/base") or ();
 
     @if $base {
         display: block;
         width: 100%;
         background-clip: padding;
+    } @else {
+        $properties: map-merge($properties, get("<%= componentName %>/variation/#{$name}") or ());
     }
 
     padding: get("padding", $properties);
