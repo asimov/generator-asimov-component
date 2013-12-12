@@ -25,7 +25,7 @@
      *
      * @markup
      * <div class="<%= componentName %> {$modifiers}">
-     *     <p style="margin: none;">{$modifiers.value}</p>
+     *     <p>{$modifiers.value}</p>
      * </div><% if (js) { %>
      *
      * <script>
