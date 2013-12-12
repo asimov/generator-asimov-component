@@ -1,16 +1,19 @@
 @import "<%= componentName %>/functions/<%= componentName %>";
 
 @mixin <%= componentName %>($name:"base", $base:true) {
-    $properties: get("<%= componentName %>/base") or ();
+    $properties: if(type-of($name) == map, $name, ());
 
     @if $base {
-        display: block;
-        width: 100%;
-        background-clip: padding;
+        $properties: if(length($properties), $properties, get("<%= componentName %>/base") or ());
+        display: inline-block;
+        text-align: center;
+        width: auto;
+        background-clip: padding-box;
     } @else {
         $properties: map-merge($properties, get("<%= componentName %>/variation/#{$name}") or ());
     }
 
+    color: get("color", $properties);
     padding: get("padding", $properties);
     background: get("background", $properties);
     border: get("border", $properties);
