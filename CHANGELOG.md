@@ -1,3 +1,11 @@
+<a name="v0.0.19"></a>
+### v0.0.19 (2013-12-12)
+
+
+#### Features
+
+* **sass:** update sass files to reflect new structure ([8a664e23](http://github.com/0.0.18/commit/8a664e2366b270bbc388a094578cbeaa913fe3a1))
+
 <a name="v0.0.18"></a>
 ### v0.0.18 (2013-12-11)
 
