@@ -4,7 +4,7 @@
     $properties: if(type-of($name) == map, $name, ());
 
     @if $base {
-        $properties: if(length($properties), $properties, get("<%= componentName %>/base") or ());
+        $properties: if(length($properties) > 0, $properties, get("<%= componentName %>/base") or ());
         display: inline-block;
         text-align: center;
         width: auto;
