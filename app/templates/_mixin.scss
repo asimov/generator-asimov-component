@@ -9,7 +9,7 @@
         text-align: center;
         width: auto;
         background-clip: padding-box;
-    } @else {
+    } @else if type-of($name) != map {
         $properties: map-merge($properties, get("<%= componentName %>/variation/#{$name}") or ());
     }
 
