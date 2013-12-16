@@ -1,3 +1,11 @@
+<a name="v0.0.25"></a>
+### v0.0.25 (2013-12-16)
+
+
+#### Features
+
+* **sass:** update the generated sass to the latest conventions ([82239fb9](http://github.com/0.0.24/commit/82239fb9289fc6d534a61f40d2a1f4a192a73d5a))
+
 <a name="v0.0.24"></a>
 ### v0.0.24 (2013-12-12)
 
