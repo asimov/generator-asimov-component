@@ -37,7 +37,9 @@
      * @nodefault
      */
 
-     @each $variation, $properties in get("<%= componentName %>/variation") {
+    // ` or ()` required to work around a quirk in sass
+    // https://github.com/nex3/sass/issues/1054
+    @each $variation, $properties in get("<%= componentName %>/variation") or () {
 
         /* @modifier .<%= componentName %>--#{$variation} - #{get("description", $properties)} */
 
