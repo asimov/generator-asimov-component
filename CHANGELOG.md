@@ -1,3 +1,16 @@
+<a name="v0.0.26"></a>
+### v0.0.26 (2013-12-19)
+
+
+#### Bug Fixes
+
+* **component:** workaround a sass quirk ([6f4edefa](http://github.com/0.0.25/commit/6f4edefa04a0018c0aca78310149cb791927d25f))
+
+
+#### Features
+
+* **mixin:** update sass mixin to current best practice ([bf680b0d](http://github.com/0.0.25/commit/bf680b0db7a6711b5e3806f9bec2b636f462b0b3))
+
 <a name="v0.0.25"></a>
 ### v0.0.25 (2013-12-16)
 

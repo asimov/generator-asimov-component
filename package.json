@@ -1,6 +1,6 @@
 {
   "name": "generator-asimov-component",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "A generator for Yeoman",
   "keywords": [
     "yeoman-generator"
