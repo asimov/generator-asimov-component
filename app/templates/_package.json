@@ -13,5 +13,11 @@
   "engines": {
     "node": ">=0.8.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "setup": "bower update; (cd bower_components/asimov-core; npm install);",
+    "build": "npm run setup && grunt",
+    "start": "npmrun setup && grunt dev"
+  },
 }
