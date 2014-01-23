@@ -1,3 +1,11 @@
+<a name="v0.0.28"></a>
+### v0.0.28 (2014-01-23)
+
+
+#### Bug Fixes
+
+* **npm:** package.json should be valid ([9f77ec36](http://github.com/0.0.27/commit/9f77ec36474c77a7aff000149ca5502e3569fc2c))
+
 <a name="v0.0.27"></a>
 ### v0.0.27 (2014-01-23)
 
