@@ -1,3 +1,16 @@
+<a name="v0.0.27"></a>
+### v0.0.27 (2014-01-23)
+
+
+#### Bug Fixes
+
+* **js:** UMD wrapper is incorrect ([677a5764](http://github.com/0.0.26/commit/677a5764d5d7210b4d9877aac1c50369afc208fc))
+
+
+#### Features
+
+* **build:** use npm scripts for convenience ([e2bed8b9](http://github.com/0.0.26/commit/e2bed8b96e33da72ba60123bbd764991d7d45700))
+
 <a name="v0.0.26"></a>
 ### v0.0.26 (2013-12-19)
 
