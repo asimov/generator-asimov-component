@@ -19,5 +19,5 @@
     "setup": "bower update; (cd bower_components/asimov-core; npm install);",
     "build": "npm run setup && grunt",
     "start": "npmrun setup && grunt dev"
-  },
+  }
 }
