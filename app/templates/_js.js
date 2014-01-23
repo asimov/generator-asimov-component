@@ -7,7 +7,7 @@
         define([
             'jquery', 'lib/<%= componentName %>'
         ], function(jQuery, <%= componentClassName %>) {
-            root.jQuery = factory(jQuery);
+            root.jQuery = factory(jQuery, <%= componentClassName %>);
             return root.jQuery;
         });
     } else {
